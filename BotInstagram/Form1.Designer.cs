@@ -122,24 +122,22 @@
             this.txtPassword.Location = new System.Drawing.Point(6, 73);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(167, 21);
+            this.txtPassword.Size = new System.Drawing.Size(167, 27);
             this.txtPassword.TabIndex = 3;
-            this.txtPassword.Text = "instagram@S9989660204Sa";
             // 
             // txtUserName
             // 
             this.txtUserName.Location = new System.Drawing.Point(6, 33);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(167, 21);
+            this.txtUserName.Size = new System.Drawing.Size(167, 27);
             this.txtUserName.TabIndex = 2;
-            this.txtUserName.Text = "sajad.shavei";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(116, 57);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 13);
+            this.label2.Size = new System.Drawing.Size(92, 21);
             this.label2.TabIndex = 1;
             this.label2.Text = "Password :";
             // 
@@ -148,7 +146,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(73, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 13);
+            this.label1.Size = new System.Drawing.Size(164, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "UserName or Email :";
             // 
@@ -248,18 +246,21 @@
             this.dgvFollowers.Location = new System.Drawing.Point(7, 49);
             this.dgvFollowers.Name = "dgvFollowers";
             this.dgvFollowers.ReadOnly = true;
+            this.dgvFollowers.RowHeadersWidth = 62;
             this.dgvFollowers.Size = new System.Drawing.Size(224, 517);
             this.dgvFollowers.TabIndex = 4;
             // 
             // UserName
             // 
             this.UserName.HeaderText = "UserName";
+            this.UserName.MinimumWidth = 8;
             this.UserName.Name = "UserName";
             this.UserName.ReadOnly = true;
             // 
             // FullName
             // 
             this.FullName.HeaderText = "FullName";
+            this.FullName.MinimumWidth = 8;
             this.FullName.Name = "FullName";
             this.FullName.ReadOnly = true;
             // 
@@ -296,18 +297,21 @@
             this.dgvFollowing.Location = new System.Drawing.Point(7, 49);
             this.dgvFollowing.Name = "dgvFollowing";
             this.dgvFollowing.ReadOnly = true;
+            this.dgvFollowing.RowHeadersWidth = 62;
             this.dgvFollowing.Size = new System.Drawing.Size(224, 517);
             this.dgvFollowing.TabIndex = 4;
             // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.HeaderText = "UserName";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.HeaderText = "FullName";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.ReadOnly = true;
             // 
@@ -379,7 +383,7 @@
             // 
             this.txtUser_UserName.Location = new System.Drawing.Point(6, 20);
             this.txtUser_UserName.Name = "txtUser_UserName";
-            this.txtUser_UserName.Size = new System.Drawing.Size(280, 21);
+            this.txtUser_UserName.Size = new System.Drawing.Size(280, 27);
             this.txtUser_UserName.TabIndex = 0;
             // 
             // btnBlockUsers
@@ -406,9 +410,10 @@
             // lstBlockUsers
             // 
             this.lstBlockUsers.FormattingEnabled = true;
+            this.lstBlockUsers.ItemHeight = 21;
             this.lstBlockUsers.Location = new System.Drawing.Point(6, 49);
             this.lstBlockUsers.Name = "lstBlockUsers";
-            this.lstBlockUsers.Size = new System.Drawing.Size(194, 173);
+            this.lstBlockUsers.Size = new System.Drawing.Size(194, 172);
             this.lstBlockUsers.TabIndex = 4;
             this.lstBlockUsers.SelectedIndexChanged += new System.EventHandler(this.lstBlockUsers_SelectedIndexChanged);
             // 
@@ -469,7 +474,7 @@
             // 
             this.txtDirectUserName.Location = new System.Drawing.Point(128, 30);
             this.txtDirectUserName.Name = "txtDirectUserName";
-            this.txtDirectUserName.Size = new System.Drawing.Size(280, 21);
+            this.txtDirectUserName.Size = new System.Drawing.Size(280, 27);
             this.txtDirectUserName.TabIndex = 5;
             // 
             // label3
@@ -477,7 +482,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(405, 33);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.Size = new System.Drawing.Size(97, 21);
             this.label3.TabIndex = 0;
             this.label3.Text = "نام کاربری : ";
             // 
@@ -506,7 +511,7 @@
             // 
             this.txtUserNameForPosts.Location = new System.Drawing.Point(96, 20);
             this.txtUserNameForPosts.Name = "txtUserNameForPosts";
-            this.txtUserNameForPosts.Size = new System.Drawing.Size(138, 21);
+            this.txtUserNameForPosts.Size = new System.Drawing.Size(138, 27);
             this.txtUserNameForPosts.TabIndex = 1;
             // 
             // groupBox8
@@ -582,7 +587,7 @@
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 742);
             this.Controls.Add(this.groupBox9);
